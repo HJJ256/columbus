@@ -18,10 +18,10 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Authentication
-consumerKey = "nFu2HqrelkEiax0L5Lh4Sw"
-consumerSecret = "6OUaIfj0ECfeJD24CVlDrcc1qqajnHBgsB7b6RPmvA"
-accessToken = "1193875656-G3iatRJ18tCCFTf8x06kV5B6XwdWbja4S4DVXDL"
-accessTokenSecret = "IGOxuEQYeTREpGkL4F5LkdYNxUPLFo0zBjX3Yfdg8g"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 try:
     auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
