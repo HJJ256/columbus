@@ -31,7 +31,7 @@ import plotly.io as pio
 import plotly.offline as pyo
 import plotly.graph_objects as go
 
-service = Directions(access_token="pk.eyJ1Ijoicm92ciIsImEiOiJja25tZXJlZXYwcHNkMm9tMHd3c2RrbWRxIn0.0xMzD3AuAcFXbbocVYEiLA")
+service = Directions(access_token="")
 
 origin = { 'type': 'Feature',
             'properties': {'name': 'Portland, OR'},
@@ -60,7 +60,7 @@ fig = go.Figure(go.Scattermapbox(
 
 fig.update_layout(
      mapbox = {
-       'accesstoken': "pk.eyJ1Ijoicm92ciIsImEiOiJja25tZXJlZXYwcHNkMm9tMHd3c2RrbWRxIn0.0xMzD3AuAcFXbbocVYEiLA",
+       'accesstoken': "",
        'style': "satellite-streets", 'zoom': 15.0, 
        'center':dict(lat = origin['geometry']['coordinates'][1],lon = origin['geometry']['coordinates'][0])},
           showlegend = False)
