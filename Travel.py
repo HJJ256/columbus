@@ -1,7 +1,7 @@
 '''import export as export
 from mapbox import Directions
 
-service = Directions(access_token="pk.eyJ1Ijoicm92ciIsImEiOiJja25tZXJlZXYwcHNkMm9tMHd3c2RrbWRxIn0.0xMzD3AuAcFXbbocVYEiLA")
+service = Directions(access_token="")
 
 #-122.7282, 45.5801, -121.3153, 44.0582
 origin = { 'type': 'Feature',
